@@ -1,11 +1,14 @@
 walk(document.body);
 
+//best way to declare function is var walk = function(node) for scoping
 function walk(node) 
 {
 	// I stole this function from here:
 	// http://is.gd/mwZp7E
 	
 	var child, next;
+    //without using var, these would become global variables and could be used in other contexts
+    //var inside methods should have the var type in front
 
 	switch ( node.nodeType )  
 	{
