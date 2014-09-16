@@ -1,3 +1,5 @@
+***This code was forked from a different repository.  As it is a relatively light Chrome extension, it was used to illustrate both basic GitHub concepts (forking, cloning) and some of the quirks of Javascript (mostly variable scoping) in the first recitation of my 6.170 Software Studio class.  What follows is the original README:***
+
 cloud-to-butt
 =============
 
